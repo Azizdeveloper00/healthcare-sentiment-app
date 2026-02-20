@@ -56,7 +56,7 @@ if st.button("Analyze Sentiment"):
 
         # Confidence (SVM decision function)
        confidence = model.decision_function(vector)
-confidence_score = round(max(confidence[0]), 3)
+        confidence_score = round(max(confidence[0]), 3))
 
         # If probability available
         try:
